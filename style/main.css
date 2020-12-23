@@ -1,9 +1,9 @@
 :root {
-    --mainWhite: rgb(56, 179, 121);
-    --mainGreen: #5000b8;
-    --mainBlue: #0d2c54;
+    --mainWhite: rgb(12, 4, 8);
+    --mainGreen: #b88d00;
+    --mainBlue: hsl(150, 73%, 19%);
     --lightBlue: #ed4b00;
-    --mainBlack: #9e4242;
+    --mainBlack: #9e425e;
 }
 
 .max-height {
@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url("../images/download.jpg") center/cover fixed no-repeat;
+    background: url("../mp1images/pexels-photo-132197.jpg") center/cover fixed no-repeat;
     color: var(--mainWhite);
 }
 
