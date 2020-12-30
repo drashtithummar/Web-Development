@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(63,128,148,0.7),rgba(63,148,113,0.3)),url(/clock1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    margin: auto;
+    margin-top: 90px;
+    width: 450px;
+}
+#display{
+    font-size: 100px;
+    background: rgba(115,175,55,0.65);
+    padding: 50px;
+    color: cornsilk;
+    border-bottom: 2px solid chartreuse;
+}
+#title{
+    background: black;
+    color: cornsilk;
+    font-size: 70px;
+    text-align: center;
+}
+.interact{
+    text-align: center;
+    background: rgba(115,175,55,0.65);
+    padding: 30px 0;
+}
+button{
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    background: black;
+    color: cornsilk;
+    border: none;
+    outline: none;
+
+}
+button:hover{
+    color: black;
+    background: cornsilk;
+}
