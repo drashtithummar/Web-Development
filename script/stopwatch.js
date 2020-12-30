@@ -10,7 +10,7 @@ var stopwatch=document.getElementById('display');
 stopwatch.innerHTML='00:00:00';
 function start(){
     msec=addZeroMsec(msec+1);
-    if(msec>99){
+    if(msec>59){
         sec=addZeroSec(sec+1);
         msec=addZeroMsec(0);
     }
