@@ -1,0 +1,32 @@
+p { 
+    color: rgb(9, 6, 26); 
+    width: 1500px; 
+    border: 20px 
+
+    }
+    html { 
+        font-size: 30px; /* px means "pixels": the base font size is now 10 pixels high */ 
+        font-family: "Open Sans", sans-serif; 
+        }
+        h1 { 
+            font-size: 60px; 
+            text-align: center; 
+            }
+            
+            p, li { 
+            font-size: 16px; 
+            line-height: 2; 
+            letter-spacing: 1px; 
+            }
+            h1 { 
+                margin: 0; 
+                padding: 20px 0; 
+                color: #db3768; 
+                text-shadow: 3px 3px 1px black; 
+                }
+
+                img { 
+                    display: block; 
+                    margin: 0 auto; 
+                    }
+                
